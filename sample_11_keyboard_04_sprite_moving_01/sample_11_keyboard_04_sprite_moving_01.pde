@@ -16,9 +16,15 @@ void keyPressed() {
   if ( key == CODED ) {
     if ( keyCode == LEFT ) {
       xPos -= 10;
+      if (xPos < 0) {
+        xPos = 0;
+      }
     }
     else if ( keyCode == RIGHT ) {
       xPos += 10;
+      if (xPos+100 > width){
+        xPos = width-100;
+      }
     }
   }
 }

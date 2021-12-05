@@ -8,6 +8,7 @@ void setup(){
 
 
 void draw(){
+  background(255);
   for(int i=0; i<width; i++ ){
     stroke( abs(mouseX-i) ) ;
     line(i,0, i,height);

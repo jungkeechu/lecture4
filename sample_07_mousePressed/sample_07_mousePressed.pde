@@ -5,7 +5,7 @@ void setup() {
 }
 
 void draw() {
-  if (mousePressed == true) {
+  if (mousePressed) {
     fill(0);
   }
   else {

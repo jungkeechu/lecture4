@@ -1,11 +1,11 @@
 // mouse Pressed
 
 void setup() {
-  size(512, 512);
+  size(256, 256);
 }
 
 void draw() {
-  if (mousePressed == true) {
+  if (mousePressed) {
     if (mouseButton == LEFT) {
       fill(0); // Black
     } else if (mouseButton == RIGHT) {
